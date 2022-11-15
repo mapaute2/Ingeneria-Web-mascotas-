@@ -55,6 +55,37 @@ body{
 	color: #fff;
 }
 
+#container{
+	width: 800px;
+	height: 150px;
+	border-radius: 6px;
+	box-shadow: 0 10px 30px 000;
+	margin: -200px auto;
+	border: 1px solid #ffffff40;
+	position: absolute;
+	right: 280px;
+	text-align: center;
+
+}
+
+.filter{
+	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter:blur(15px);
+	background-color: rgba(243,243,243,0.2);
+}
+
+#container h5{
+	color: #fff;
+	margin-top: 20px;
+
+}
+
+#container button{
+	margin-top: 20px;
+	background-color: #B5EF8A;
+	color: #000;
+}
+
 /*-----------------------------------------------*/
 /*                    slider                     */
 /*-----------------------------------------------*/
@@ -148,6 +179,8 @@ body{
 	border-radius: 6px;
 }
 
+
+
 .contenedor .adopcion2 .cardog2 button:hover{
 	background-color: #65524D;
 	color: #fff;
@@ -169,11 +202,117 @@ body{
 .contenedor .sponsor{
 	grid-area: sponsor;
 	background-color: #333;
+	padding: 35px;
+	text-align: center;
 }
 
 .contenedor .sponsor img{
-	margin-right: 300px;
-	padding: 20px 60px;
+	width: 120px;
+	height: 53px;
+	padding: 10px 60px;
+}
+
+.contenedor .doctor .doctor1 .referente {
+	grid-area: doc1;
+	background-color: white;
+	opacity: 70%;
+	position: absolute;
+	object-position: bottom;
+	margin-top: -86px;
+	left: 127px;
+	right: 1032px;
+}
+
+.contenedor .doctor .doctor2 .referente {
+	grid-area: doc1;
+	background-color: white;
+	opacity: 70%;
+	position: absolute;
+	object-position: bottom;
+	margin-top: -86px;
+	left: 429px;
+	right: 728px;
+}
+
+.contenedor .doctor .doctor3 .referente {
+	grid-area: doc1;
+	background-color: white;
+	opacity: 70%;
+	position: absolute;
+	object-position: bottom;
+	margin-top: -86px;
+	left: 730px;
+	right: 429px;
+}
+
+.contenedor .doctor .doctor4 .referente {
+	grid-area: doc1;
+	background-color: white;
+	opacity: 70%;
+	position: absolute;
+	object-position: bottom;
+	margin-top: -86px;
+	left: 1032px;
+	right: 127px;
+}
+
+/*-----------------------------------------------*/
+/*                    main                       */
+/*-----------------------------------------------*/
+
+main{
+	grid-area: slider;
+	margin: 0 auto;
+	width: 90%;
+	padding: 2em 0;
+}
+
+
+/*-----------------------------------------------*/
+/*                    formularios                */
+/*-----------------------------------------------*/
+
+.grupoInput{
+	padding: 10px;/*separacion en los 4 lados*/
+
+}
+
+.grupoInput label{
+	display: block; /*en bloques*/
+
+}
+
+.grupoInput input[type=text],.grupoInput input[type=email],.grupoInput input[type=number],.grupoInput input[type=date]{ /*los que son tipo texto*/
+	width: 90%;
+	padding: 15px;
+	border-radius: 5;
+}
+
+.boton{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.boton:hover{
+	background-color: #3C8F40;
+}
+
+.alerta{
+	color: red;
+}
+
+.centrado{
+	text-align: center;/* centrar el boton guardar 	*/
 }
 
 /*-----------------------------------------------*/

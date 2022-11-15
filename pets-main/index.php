@@ -17,18 +17,26 @@
 	<header class="cabeceraPrincipal">
 		<section class="logotipo"><img src="images/logotipoPet.png"></section>
 		<nav class="menuPrincipal">
-			<a href="#">Inicio</a>
+			<a href="../">Inicio</a><!--no se redirija-->
 			<a href="#">Servicios</a>
 			<a href="#">Productos</a>
-			<a href="#">Adopción</a>
+			<a href="internas/adopcion.php">Adopción</a><!--cabio de ventana-->
 			<a href="#">Contactos</a>
 		</nav>
 	</header>
-	<section class="sliderPrincipal">
+	<div class="sliderPrincipal">
 		<img src="images/indice.jpg">
-	</section>
+		<div id="container" class="filter">
+			<div>
+				<h5>Proyecto de adopción de mascotas</h5>
+				<div class="centrado2"><!--para centrar del 100 agregar un div-->
+				<button class="boton" type="submit">ADOPTANOS</button>
+			</div>
+			</div>
+		</div>
+	</div>
 	<section class="titulo">
-		<h2>En Adopción</h2>
+		<h2>Adopción</h2>
 	</section>
 	<section class="adopcion1">
 		<img src="images/dog1.jpg">
@@ -46,12 +54,36 @@
 			<button>Mas información</button>
 		</section>
 	</section>
-	<section class="doctor">
-		<img src="images/doc1.jpg">
-		<img src="images/doc2.jpg">
-		<img src="images/doc3.jpg">
-		<img src="images/doc4.jpg">
-	</section>
+	<div class="doctor">
+		<div class="doctor1">
+			<img src="images/doc1.jpg">
+			<div class="referente">
+				<h3>Dr. Luis Jaramillo</h3>
+				<h4>Especialista en alimentación canina</h4>
+			</div>
+		</div>
+		<div class="doctor2">
+			<img src="images/doc2.jpg">
+			<div class="referente">
+				<h3>Dr. Luis Jaramillo</h3>
+				<h4>Especialista en alimentación canina</h4>
+			</div>
+		</div>
+		<div class="doctor3">
+			<img src="images/doc3.jpg">
+			<div class="referente">
+				<h3>Dr. Luis Jaramillo</h3>
+				<h4>Especialista en alimentación canina</h4>
+			</div>
+		</div>
+		<div class="doctor4">
+			<img src="images/doc4.jpg">
+			<div class="referente">
+				<h3>Dr. Luis Jaramillo</h3>
+				<h4>Especialista en alimentación canina</h4>
+			</div>
+		</div>
+	</div>
 	<section class="sponsor">
 		<img src="images/logotipoPet.png">
 		<img src="images/logo_blanco_utpl.png">
